@@ -2,9 +2,9 @@
 # Modifed to fit my use
 name: Wordlist Updater - Awesome list of secrets in environment variables
 
-on:
-  schedule:
-    - cron: '0 0 * * 0'  # Runs on Sunday, 00:00
+#on:
+  #schedule:
+    #- cron: '0 0 * * 0'  # Runs on Sunday, 00:00
 
 jobs:
   update_awesome-environment-variable-names:
